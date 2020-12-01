@@ -1,0 +1,11 @@
+#include<iostream>
+#include <cmath>
+using namespace std;
+int main() {
+	unsigned int maxValue = 4294967295;
+	int i = 0;
+	unsigned int number = 0;
+	number = pow(2, pow(2, i)) + pow(3, pow(2, i));
+	cout << number;
+}
+
